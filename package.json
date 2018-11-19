@@ -1,0 +1,20 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "description": "Coding challenge, training for algorithms 💪 💪",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon js/organize-array.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luctst/coding-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luctst/coding-challenge/issues"
+  },
+  "homepage": "https://github.com/luctst/coding-challenge#readme"
+}

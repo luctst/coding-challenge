@@ -2,9 +2,9 @@
   "name": "coding-challenge",
   "version": "1.0.0",
   "description": "Coding challenge, training for algorithms 💪 💪",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "test": "nodemon js/organize-array.js"
+    "c1": "nodemon js/organize-array.js"
   },
   "repository": {
     "type": "git",

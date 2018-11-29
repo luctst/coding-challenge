@@ -8,12 +8,12 @@ If you want try some challenges you must have downloaded:
 * Ruby
 
 ## Challenge:
-C1 - Organize array of numbers by increasing order:
-<ul>
-<li style="color:#28a745">Lucas</li></li>
-<li style="color:#dc3545;">Antoine</li>
-<li style="color:#dc3545;">Kévin</li>
-</ul>
+*C1 - Organize array of numbers by increasing order:*
+* **Lucas - √**
+* Antoine - 
+* Kévin - 
+
+*C2 - Reverse a string.*
 
 
 ## Contributors:

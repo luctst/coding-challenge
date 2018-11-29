@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Lancer le programme",
-            "program": "${workspaceFolder}/js/organize-array.js"
+            "program": "${workspaceFolder}/js/reverse-string.js"
         }
     ]
 }

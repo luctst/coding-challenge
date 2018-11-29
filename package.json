@@ -4,7 +4,8 @@
   "description": "Coding challenge, training for algorithms 💪 💪",
   "main": "",
   "scripts": {
-    "c1": "nodemon js/organize-array.js"
+    "c1": "nodemon js/organize-array.js",
+    "c2": "nodemon js/reverse-string.js"
   },
   "repository": {
     "type": "git",

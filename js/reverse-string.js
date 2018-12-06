@@ -9,10 +9,7 @@ const strTest2 = "Geronimo";
 * Déclaration
 */
 const reverse = string => {
-    let strTab = [];
-    for (const i of string) {
-        strTab.push(i);
-    }
+    let strTab = [...string];
     for (let y = 0; y < strTab.length; y++) {
         let count = y + 1;
         let index = strTab[y];

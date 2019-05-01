@@ -1,14 +1,8 @@
-/**
-* Variables
-*/
 const str = "Lucas";
 const strTest = 'Antoine';
 const strTest2 = "Geronimo";
 
-/**
-* Déclaration
-*/
-const reverse = string => {
+const reverseString = string => {
     let strTab = [];
     for (const i of string) {
         strTab.push(i);
@@ -28,9 +22,4 @@ const reverse = string => {
     }
 };
 
-/**
-* Exécution
-*/
-reverse(str);
-reverse(strTest);
-reverse(strTest2);
+module.exports = reverseString;

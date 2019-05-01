@@ -1,13 +1,13 @@
 /**
- * Variables
+ * Challenge: Given the three arrays in (organize-array.test file) (test, test2, test3) you 
+ * should be able to create a function who return a new array with the numbers organized by 
+ * ascending.
+ * 
+ * Example: the first array should return [1, 2, 3, 4], second one [1, 2, 3, 4]...
+ * 
+ * Passed the test: Run the command `test-organize-array` all test should be succeded.
  */
-const test = [4, 2, 3, 1];
-const test2 = [1, 2, 4, 3];
-const test3 = [10, 30, 25, 9, 60, 110, 105, 200, 190];
 
-/**
- * Declaration
- */
 const sort = (array) => {
     let max = Math.max(...array); // Get higher value element.
     let min = Math.min(...array); // Get lower value element.
@@ -24,12 +24,8 @@ const sort = (array) => {
             } 
         }
     }
-    console.log(array);
+    const newArray = [...array];
+    return newArray;
 }
 
-/**
- * Execution
-*/
-sort(test);
-sort(test2);
-sort(test3);
+module.exports = sort;

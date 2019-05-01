@@ -4,8 +4,7 @@
   "description": "Coding challenge, training for algorithms 💪 💪",
   "main": "",
   "scripts": {
-    "c1": "nodemon js/organize-array.js",
-    "c2": "nodemon js/reverse-string.js"
+    "test-organize-array": "jest test/js/organize-array.test.js"
   },
   "repository": {
     "type": "git",
@@ -13,9 +12,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "",
   "bugs": {
     "url": "https://github.com/luctst/coding-challenge/issues"
   },
-  "homepage": "https://github.com/luctst/coding-challenge#readme"
+  "homepage": "https://github.com/luctst/coding-challenge#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
 }

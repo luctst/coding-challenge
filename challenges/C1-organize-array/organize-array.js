@@ -1,11 +1,13 @@
 /**
- * Challenge: Given the three arrays in (organize-array.test file) (test, test2, test3) you 
- * should be able to create a function who return a new array with the numbers organized by 
- * ascending.
+ * CHALLENGE - Given an array with X elements you should create a function who return a new array 
+ * with the numbers organized by ascending order.
  * 
- * Example: the first array should return [1, 2, 3, 4], second one [1, 2, 3, 4]...
+ * DATA - Use this array.
+ * [4, 2, 3, 1]
+ * [1, 2, 4, 3]
+ * [10, 30, 25, 9, 60, 110, 105, 200, 190]
  * 
- * Passed the test: Run the command `test-organize-array` all test should be succeded.
+ * TEST -  Run the command `npm run C1` all test should be succeded.
  */
 
 const sort = (array) => {

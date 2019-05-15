@@ -1,26 +1,51 @@
 # coding-challenge
 *Coding-challenge are little problems that you have to resolve with code, some problems are asked by top technologies company's like Google, Facebook, Uber..*
 
+## Getting started:
+Run
+```
+npm install
+```
+to install all NodeJs dependencies.
+
+## Langages used:
+* NodeJs.
+* Ruby.
+* C++.
+
 ## How it works ? 
-Three folder:
-* C++, where you will find the challenge written in C++.
-* js, for JavaScript.
-* ruby, for Ruby.
+### Structure:
+All the challenges lived in the `challenges` folder, they all start with `C<number><challenge-name>` in each folders there are `.js, .rb, .c` files where you can find the code associated.
 
-In each folder you will find files with the name of the challenge that they solved.
-> **Note** - To get more details on a challenge check the first comment section of a file to get a full descriptive of the challenge.
+### Resolved a challenge:
+You can use anything that you want except function's who directly resolved a challenge.
+* Example: For the C1 challenge you can't use the `sort` method directly.
 
-## How to passed a challenge ?
-To pass a problem you must passed three tests with diferents data we're using Jest for testing code with Javascript the other languages are not defined for now.
+**To get details on a challenge check the first comment section of a file to get a full description of the challenge.**
 
-The test rules are defined in the `test` folder where you will find subfolder who correspond to a programming language with files who match the challenge they solved.
-> **Note** - To get details on the test read the descriptive comment present on each challenges files.
+### How to passed a challenge ?
+the only way for your code to be success is to passed the tests, those tests are defined in the `test` folder where you will find subfolder who corresponds to a challenge.
+
+We're using third party libraries to write our tests:
+* JS - Jest.
+* Ruby - Rspec.
+* C++ - To defined.
+
+### Run a test:
+There are differents ways to run your test in terms of your langages:
+
+* JS - Use the `npm run C<number>`.
+* Ruby - To defined.
+* C++ - To defined.
+
+The test rules are defined in the `test` folder, normaly you don't have to modify any files in this folder but if you're curious you look inside.
+> **Note** - To get details tests read the descriptive comment present on each challenges files.
 
 ## Contributing:
 You'll like to solve the challenge ? it will be a pleasure for us :)
 
 1. Fork the repo.
-2. Create a branch with your GitHub name and the challenge you solved Ex: `luctst/C2`.
+2. Create a branch with your GitHub name and the challenge you're trying to solved, Ex: `luctst/C2`.
 3. Follow the project structure.
 4. Run the tests.
 5. Create a PR with the template we gave by giving a maximum information's.
@@ -29,19 +54,13 @@ See your code alive :)
 
 ## Challenge:
 *C1 - Organize array of numbers by increasing order:*
-* **JS** - Passed.
-* **C++** - Rejected.
-* **Ruby** - Rejected.
+* Level - Easy.
 
 *C2 - Reverse a string.*
-* **Js** - Rejected.
-* **C++** - Rejected.
-* **Ruby** - Rejected.
+* Level - Easy.
 
 *C3 asked by Google - x number check if sum of some elements in array are equal to x number.*
-* **Js** - Rejected.
-* **C++** - Rejected.
-* **Ruby** - Rejected.
+* Level - Easy.
 
 ## Contributors:
 * **Kévin Nguyen Joya** - Follow him on [twitter](https://twitter.com/kvinjya?lang=fr), check his personal website [kevin-joya.fr](http://kevin-joya.fr/)

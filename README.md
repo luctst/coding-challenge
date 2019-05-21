@@ -51,11 +51,11 @@ You'll like to solve the challenge ? it will be a pleasure for us :)
 See your code alive :)
 
 ## Challenge:
-*C1 - Organize array of numbers by increasing order:* **Easy**
-
-*C2 - Reverse a string.* **Easy**
-
-*C3 asked by Google - x number check if sum of some elements in array are equal to x number.* **Easy**
+| Name | Description | Level | JavaScript | Ruby | C++ |
+| -----| ---------   | ----- | ---------- | ---- | --- |
+| C1 | Organize array | Easy | √          | X    | X   |
+| C2 | Reverse string | Easy | X          | X    | X   |
+| C3 | x number check if sum of some elements in array are equal to x number | Easy | X | X | X |
 
 ## Contributors:
 * **Kévin Nguyen Joya** - Follow him on [twitter](https://twitter.com/kvinjya?lang=fr), check his personal website [kevin-joya.fr](http://kevin-joya.fr/)

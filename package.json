@@ -16,5 +16,6 @@
   },
   "homepage": "https://github.com/luctst/coding-challenge#readme",
   "devDependencies": {
+    "ava": "^2.2.0"
   }
 }

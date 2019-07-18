@@ -18,4 +18,4 @@ install:
 - npm install
 
 script:
-- ava test/organize-array/organize-array.test.js --fail-fast -c
+- ava test/organize-array/organize-array.test.js --fail-fast

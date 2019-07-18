@@ -1,23 +1,20 @@
 {
+  "private": true,
   "name": "coding-challenge",
   "version": "1.0.0",
   "description": "Coding challenge, training for algorithms 💪 💪",
-  "main": "",
   "scripts": {
-    "C1": "jest test/C1-organize-array/organize-array.test.js"
+    "test": "echo 'hello world'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luctst/coding-challenge.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "",
+  "author": "Tostée Lucas <lucas.tostee@gmail.com> (https://www.lucas-tostee.com)",
   "bugs": {
     "url": "https://github.com/luctst/coding-challenge/issues"
   },
   "homepage": "https://github.com/luctst/coding-challenge#readme",
   "devDependencies": {
-    "jest": "^24.7.1"
   }
 }

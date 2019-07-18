@@ -2,60 +2,45 @@
 *Coding-challenge are little problems that you have to resolve with code, some problems are asked by top technologies company's like Google, Facebook, Uber..*
 
 ## Getting started:
-* NodeJs - Run `npm install` to install all dependencies.
-* Ruby - To defined.
-* C++ - To defined.
+Run this command to install dependencies.
+
+```
+npm install
+```
 
 ## Langages used:
 * NodeJs.
-* Ruby.
-* C++.
 
 ## How it works ? 
 ### Structure:
-All the challenges lived in the `challenges` folder, they all start with `C<number><challenge-name>` in each folders there are *JavaScript, Ruby and C++* files where you can find the code associated.
+All the challenges lived in the `challenges` folder, they all start with `<challenge-name>` in each folders there are JavaScript file where you can find the code associated.
 
 ### Resolved a challenge:
 You can use anything that you want except function's who directly resolved a challenge.
 * Example: For the C1 challenge you can't use the `sort()` method directly.
 
-**To get details on a challenge check the first comment section of a file to get a full description of the challenge.**
+**To get details on a challenge check the README file inside the challenge folder to get a full description.**
 
 ### How to passed a challenge ?
-the only way for your code to be success is to passed the tests, those tests are defined in the `test` folder where you will find subfolder who corresponds to a challenge.
+the only way for your code to be success is to passed the test, those test are defined in the `test` folder where you will find subfolder who corresponds to a challenge.
 
-We're using third party libraries to write our tests:
-* JS - Jest.
-* Ruby - Rspec.
-* C++ - To defined.
+We're using third party libraries (AVA) to write our tests.
 
 ### Run a test:
-There are differents ways to run your test in terms of your langages:
+To run a test
 
-* JS - Use the `npm run C<number>`.
-* Ruby - To defined.
-* C++ - To defined.
+* JS - Use the `npm run <challenge-name>`.
 
-The test rules are defined in the `test` folder, normaly you don't have to modify any files in this folder but if you're curious you look inside.
-> **Note** - To get details tests read the descriptive comment present on each challenges files.
+The test rules are defined in the `test` folder, normaly you don't have to modify any files in this folder but if you're curious you can look inside.
 
 ## Contributing:
-You'll like to solve the challenge ? it will be a pleasure for us :)
-
-1. Fork the repo.
-2. Create a branch with your GitHub name and the challenge you're trying to solved, Ex: `luctst/C2`.
-3. Follow the project structure.
-4. Run the tests.
-5. Create a PR with the template we gave by giving a maximum information's.
-
-See your code alive :)
+If you want add your code in this project please read this little and short [CONTRIBUTING.md](https://github.com/luctst/coding-challenge/blob/master/CONTRIBUTING.md) file.
 
 ## Challenge:
-| Name | Description | Level | JavaScript | Ruby | C++ |
-| -----| ---------   | ----- | ---------- | ---- | --- |
-| C1 | Organize array | Easy | √          | X    | X   |
-| C2 | Reverse string | Easy | X          | X    | X   |
-| C3 | x number check if sum of some elements in array are equal to x number | Easy | X | X | X |
+| Name | Level | Passed |
+| -----| ----- | ---------- | 
+| organize-array | Easy | √  | 
+| reverse-string| Easy | X |
 
 ## Contributors:
 * **Kévin Nguyen Joya** - Follow him on [twitter](https://twitter.com/kvinjya?lang=fr), check his personal website [kevin-joya.fr](http://kevin-joya.fr/)

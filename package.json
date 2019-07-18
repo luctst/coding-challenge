@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Coding challenge, training for algorithms 💪 💪",
   "scripts": {
-    "test": "echo 'hello world'"
+    "organize-array": "ava test/organize-array/organize-array.test.js --watch --color --verbose"
   },
   "repository": {
     "type": "git",

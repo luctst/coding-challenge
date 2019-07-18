@@ -18,4 +18,4 @@ install:
 - npm install
 
 script:
-- npm organize-array
+- npm run organize-array

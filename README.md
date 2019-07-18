@@ -33,6 +33,8 @@ To run a test
 
 The test rules are defined in the `test` folder, normaly you don't have to modify any files in this folder but if you're curious you can look inside.
 
+> **Note** - This command will watch your `.js` file every time you save your file it will re run the test process for you no need to launch this everytime.
+
 ## Contributing:
 If you want add your code in this project please read this little and short [CONTRIBUTING.md](https://github.com/luctst/coding-challenge/blob/master/CONTRIBUTING.md) file.
 

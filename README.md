@@ -1,4 +1,7 @@
 # coding-challenge
+[![Build Status](https://www.travis-ci.com/luctst/coding-challenge.svg?branch=master)](https://www.travis-ci.com/luctst/coding-challenge)
+[![devDependencies Status](https://david-dm.org/luctst/coding-challenge/dev-status.svg?style=flat-square)](https://david-dm.org/luctst/coding-challenge?type=dev)
+
 *Coding-challenge are little problems that you have to resolve with code, some problems are asked by top technologies company's like Google, Facebook, Uber..*
 
 ## Getting started:

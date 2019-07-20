@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Coding challenge, training for algorithms 💪 💪",
   "scripts": {
-    "organize-array": "ava test/organize-array/organize-array.test.js --watch --color --verbose"
+    "organize-array": "ava test/organize-array.test.js --watch --color --verbose",
+    "get-product": "ava test/get-product.test.js --watch --color --verbose"
   },
   "repository": {
     "type": "git",

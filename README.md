@@ -46,7 +46,7 @@ If you want add your code in this project please read this little and short [CON
 | -----| ----- | ---------- | 
 | organize-array | Easy | √  | 
 | reverse-string| Easy | X |
-| get-product | Easy | X |
+| get-product | Easy | √ |
 
 ## Contributors:
 * **Kévin Nguyen Joya** - Follow him on [twitter](https://twitter.com/kvinjya?lang=fr), check his personal website [kevin-joya.fr](http://kevin-joya.fr/)

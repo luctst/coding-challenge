@@ -1,3 +1,7 @@
+/**
+  * This function will run in O(n)²
+  * @param {Array} arrayToTest An array of integers
+  */
 const getProduct = arrayToTest => {
     const arrayToReturn = [];
 
